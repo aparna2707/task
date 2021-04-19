@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@media only screen and (max-width:778px) {
+    section{
+        padding: 0;
+    }
+ header .btn{
+     display: none;
+ }
+ header .lang-select{
+     display: none;
+ }
+ 
+    .banner{
+        width: 100%;
+        height: auto;
+        background: url("./images/promo.s");
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left: 0%;
+    }
+    /* .titleText{
+        font-size: 2rem;
+    } */
+    
+.banner .content{
+   display: none;
+}
+header .logo{
+    left:0%
+}
+header .sticky{
+    display: none;
+}
+header .navigation{
+    display: none;
+}
+header .navigation li a{
+    display: none;
+}
+.social-icons{
+    display: none;
+}
+ .header .navigation li a{
+    display: none;
+}
+section{
+    padding: 0px;
+}
+.about{
+    width: 100%;
+}
+.banner .text-block{
+    display: none;
+}
+.about .content{
+    display: block;
+    margin-left: 20%;
+}
+ 
+.about .imgBx{
+    float: left;
+ 
+    
+    width: 150%;
+    height: auto;
+}
+.about .titleText{
+    color: black;
+}
+.about .imgBx img{
+    width: 100%;
+   padding: 50px;
+    height: 300px;
+}
+.causes .box1 h1{
+ font-size: 2rem;
+    padding: 10%;
+}
+.volunteer {
+    margin-top: -20px;
+}
+.volunteer .text-section-heading{
+    font-size: 3rem;
+
+}
+.volunteer .btn{
+margin-left: -10px;
+}
+.events p{
+    font-size: 1rem;
+}
+.events .content p{
+    font-size: 1rem;
+}
+
+.events .content .box{
+    width: 400px;
+    margin-right: -80px;
+    margin-left: -50px;
+    display: block;
+}
+ .events .title h2 span{
+font-size: 3rem;
+ }
+.events .content .box .imgBx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    padding: .1rem;
+}
+.events .btn{
+    margin-left: 20px;
+}
+
+.events .content .box .imgBx{
+    width: 100%;
+    /* margin-left: -50px;
+    margin-right: -100px; */
+    display: block;
+    border: 15px solid #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.08);
+}
+.testimonial{
+    background: url("./images/small/testimonials.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.testimonial p{
+    font-size: 1rem;
+}
+.blog{
+    margin-top: 0px;
+}
+.blog .box1{
+    width: 500px;
+    /* margin-left: -50px; */
+    height: auto;
+    display: block;
+    /* margin-right: -100px; */
+}
+.blog .box2{
+    background: url("./images//blog_2@1X.jpg");
+    margin-right: 0px;
+    margin-left: 0%;
+    width: 80%;
+}
+.blog2 .box2{
+    width: 500px;
+    /* margin-left: -100px; */
+    height: auto;
+    display: block;
+    /* margin-right: -100px; */
+    margin-top: -100px;
+}
+.blog2 .box1{
+   width: 80%;
+    margin-right: 0px;
+    margin-left: 0%;
+}
+.causes .content{
+    border: none;
+}
+.causes .box {
+    width: 500px;
+    /* margin-left: -100px;
+    margin-right: -100px; */
+   
+}
+.causes .box1 span{
+    text-align: center;
+    
+}
+
+.causes .box1 h1{
+    font-size: 2rem;
+}
+
+.causes .imgBx img{
+    width: 500px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: .1rem;
+
+
+}
+.causes .box span{
+    font-size: 5rem;
+}
+.causes .content .box{
+  /* margin-left: -100px;
+  margin-right: -100px; */
+width: 250px;
+}
+
+
+
+/* .services .title{
+font-size: 1rem;
+
+} */
+
+.title{
+    font-size: 3rem;
+}
+
+.services {
+    margin-top: 10px;
+width: 80%;
+padding: 50px;
+}
+
+
+/* .photo .title{
+    margin-right: 550px;
+    
+} */
+
+/* /* .photo .titleText {
+    /* margin-left: -150px; */
+
+
+.subscribe .box a{
+    font-size: 1rem;
+}
+
+.subscribe{
+    margin-top: 10px;
+}
+.topnav {
+  overflow: hidden;
+  
+  position: relative;
+}
+header .hamburger{
+    display: block;
+    color: rgb(250, 239, 239);
+    margin-left: 0;
+    top: 0;
+    position: relative;
+    margin-top: -120px;
+    margin-left: -80px;
+}
+.topnav {
+    overflow: hidden;
+   
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+     
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    color: cornsilk;
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+
+
+
+
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 900px) {
+    .column  {
+      width: 50%;
+    }
+
+    section{
+        padding: 100px;
+    }
+  }
+
+
+@media only screen and (min-width: 769px){
+   
+} */
+
+
+
+
+
+
+
+
